@@ -1,0 +1,3 @@
+iverilog -o elevator_sim elevator_controller.v elevator_controller_tb.v
+vvp elevator_sim
+gtkwave elevator_controller.vcd
